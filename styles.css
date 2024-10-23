@@ -1,0 +1,144 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9b2d60;
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a981b9; 
+    padding: 10px;
+}
+
+#logo-header img {
+    border-radius: 50%;
+}
+
+#site-name {
+    font-size: 4rem;
+    color: rgb(247, 244, 244);
+    margin-left: 20px;
+}
+
+
+nav {
+    background-color: #070707; 
+    padding: 5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(236, 202, 232);
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ff1493;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #0a0a0a;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+ol, ul {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+ol li, ul li {
+    margin: 5px 0;
+}
+
+
+video {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+
+a {
+    color: #3a04fd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #site-name {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        margin: 10px;
+        padding: 10px;
+    }
+  
+    
+  
+    
+}
